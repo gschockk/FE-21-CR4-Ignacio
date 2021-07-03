@@ -1,0 +1,92 @@
+body {
+  background-color: black !important;
+  color: white;
+}
+
+.card {
+  background-color: black;
+}
+.card-body {
+  margin-top: 0 !important;
+  padding-top: 0;
+  padding-left: 0;
+}
+
+#movies_subtitle {
+  text-align: center;
+  border: 1px dotted blue;
+  margin-top: 0;
+}
+
+.titles_text_white {
+  color: white;
+  font-weight: bolder;
+}
+
+.like_btn {
+  cursor: pointer;
+}
+
+#movies_sort {
+  text-align: center;
+  border: 1px dotted blue;
+  margin: 1rem;
+}
+
+.main_cont1 {
+  max-width: 90% !important;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.add_nav_padding {
+  padding-left: 2rem;
+}
+
+.adding_margin_top_columns {
+  margin-top: 3rem;
+}
+
+.text_description_size {
+  font-size: small;
+}
+
+#movies_sort {
+  margin-top: 0;
+}
+
+input {
+  width: 3rem;
+  border: none;
+  background: none;
+  color: #919191;
+  font-size: 1rem;
+  pointer-events: none !important;
+  -webkit-appearance: none;
+}
+
+button {
+  color: #fff;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  padding: 0 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+button:active {
+  color: #004eff;
+  transform: scale (1.2);
+}
+]
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

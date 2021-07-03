@@ -1,0 +1,50 @@
+let movies  = ` 
+[{ 
+  "movieName": "Hello World: the Movie",
+  "image" : "img/1_200x300.jpg",
+  "description" : "Una mirada mordaz y oportuna a la lucha contra la discriminación rampante en la Nigeria actual, vista a través de la lente de varios jóvenes audaces y carismáticos, inconformistas, que luchan por vivir la vida en voz alta. A través de las redes sociales, las celebridades y la expresión creativa, provocan un debate cultural que desafía los ideales de conformidad de género y los derechos humanos en Nigeria.",
+  "likes": 5
+
+ },
+ { 
+  "movieName": "Learning HTML",
+  "image" : "img/2_200x300.jpg",
+  "description": "Los hermanos Templeton son ahora adultos, pero se han distanciado con el paso del tiempo. Tim es ahora un padre de familia felizmente casado. Ted, en cambio, es director general de un fondo de inversión. Pero un nuevo bebé jefazo con un innovador enfoque y una dinámica actitud está a punto de volver a unirlos… y de inspirar un nuevo negocio familiar.",
+  "likes": 7
+
+ },
+
+ { 
+  "movieName": "Learning CSS",
+  "image" : "img/3_200x300.jpg",
+  "description": "Dynasty Warriors es una próxima película de acción y fantasía de Hong Kong basada en la franquicia japonesa de videojuegos del mismo título.",
+  "likes": 9
+
+ },
+
+ { 
+ "movieName": "Bootstrap or not?",
+ "image" : "img/4_200x300.jpg",
+  "description": "Opresiva y oscura historia en la que dos hermanos -Dwight y Jessie- se ven obligados a matar para obtener la sangre humana fresca que su hermano menor necesita para sobrevivir.",
+  "likes": 11
+
+ },
+
+ { 
+  "movieName": "Javascript: The Return",
+  "image" : "img/5_200x300.jpg",
+  "description": "Una joven encuentra consuelo en su padre artista y en el fantasma de su madre muerta.",
+  "likes": 13
+
+ },
+
+ { 
+  "movieName": "The Weekly Code Review: Ignacio's quest to deliver on-time",
+  "image" : "img/6_200x300.jpg",
+  "description": "En una misión de vigilancia en un bosque primigenio, un guardabosques se encuentra con dos supervivientes que siguen un estilo de vida postapocalíptico. El chico y su filosófico padre parecen tener su propia religión y una misteriosa relación con la naturaleza. ",
+  "likes": 15
+
+ }
+
+]
+`

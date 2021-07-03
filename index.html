@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies Factory</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/f433ae7ed4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Title of website -->
+<nav class="navbar navbar-light bg-dark justify-content-center  ">
+  <a class="navbar-brand " href="#"><h1 class="titles_text_white">Movie Factory</h1></a>
+</nav>
+<!-- Menu Bar only for Home link -->
+<nav class="navbar navbar-expand-lg   navbar-light bg-secondary add_nav_padding">
+  <a class="navbar-brand" href="#"><h4 class="titles_text_white">Home</h4></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  </nav>
+
+
+
+<!-- Main container with cards inside it 3 x 2 array -->
+<div class="container main_cont1" style="mask-border-width: 1px;">
+ 
+<!-- This is the subtitle and the sort bar -->
+
+  <div class="row">
+    
+    <div class="col col-lg-10 col-md-10 col-sm-12 ">
+      
+     <h3 id="movies_subtitle"> Movies </h3>
+    </div>
+    
+    <div class="col col-lg-2 col-md-2 col-sm-12 h-100  ">
+      <h4 id="movies_sort"> Sort </h4>
+    </div>
+        
+  </div>
+  
+
+  <div class="row">
+    
+       <div class="col col-lg-4 col-md-6 col-sm-12 adding_margin_top_columns">
+        
+        <div class="card h-100">
+          <div class="row no-gutters">
+            <div class="col-4" id="image0">
+            
+            </div>
+            <div class="col-8">
+              <div class="card-body">
+                <h5 class="card-title" id="movieName0"></h5>
+                <p class="card-text text_description_size" id="description0"></p>
+                
+
+             
+
+                <button id="likebtn0">
+                <i class="far fa-thumbs-up fa-xs "></i>
+                  <input type="number" id="input0" value="0" name="">
+                  <br>
+
+                  <input type="text" id="likes0" value="0" name="">
+                  <!-- <span id="likes0"></span> Likes -->
+               </button>             
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+    
+        
+      <div class="col col-lg-4 col-md-6 col-sm-12 adding_margin_top_columns">
+      
+      <div class="card h-100" >
+        <div class="row no-gutters">
+          <div class="col-4" id="image1">
+            
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+              <h5 class="card-title" id="movieName1"></h5>
+              <p class="card-text text_description_size " id="description1"></p>
+             
+             
+              <button id="likebtn1">
+                <i class="far fa-thumbs-up fa-xs "></i>
+                  <input type="number" id="input1" value="0" name="">
+                  <br>
+
+                  <input type="text" id="likes1" value="0" name="">
+                  <!-- <span id="likes0"></span> Likes -->
+               </button>        
+              
+              
+              
+              
+              
+               <p class="card-text"><small class="text-muted"></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+ 
+      <div class="col col-lg-4 col-md-6 col-sm-12 adding_margin_top_columns">
+        
+        <div class="card h-100" >
+          <div class="row no-gutters">
+            <div class="col-4" id="image2">
+            
+            </div>
+            <div class="col-8">
+              <div class="card-body">
+                <h5 class="card-title" id="movieName2"></h5>
+                <p class="card-text text_description_size" id="description2"></p>
+                
+                
+                
+                <button id="likebtn2">
+                  <i class="far fa-thumbs-up fa-xs "></i>
+                    <input type="number" id="input2" value="0" name="">
+                    <br>
+  
+                    <input type="text" id="likes2" value="0" name="">
+                    <!-- <span id="likes0"></span> Likes -->
+                 </button>   
+               
+               
+               
+               
+               
+               
+               
+               
+               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm-12 adding_margin_top_columns">
+          
+          <div class="card h-100" >
+            <div class="row no-gutters">
+              <div class="col-4" id="image3">
+            
+              </div>
+              <div class="col-8 ">
+                <div class="card-body">
+                  <h5 class="card-title" id="movieName3"></h5>
+                  <p class="card-text text_description_size" id="description3"></p>
+                 
+                 
+                  <button id="likebtn3">
+                    <i class="far fa-thumbs-up fa-xs "></i>
+                      <input type="number" id="input3" value="0" name="">
+                      <br>
+    
+                      <input type="text" id="likes3" value="0" name="">
+                      <!-- <span id="likes0"></span> Likes -->
+                   </button>   
+                 
+                 
+                 
+                 
+                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          
+ 
+   <div class="col col-lg-4 col-md-6 col-sm-12 adding_margin_top_columns">
+      
+      <div class="card h-100" >
+        <div class="row no-gutters">
+          <div class="col-4" id="image4">
+            
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+              <h5 class="card-title" id="movieName4"> </h5>
+              <p class="card-text text_description_size" id="description4"></p>
+             
+             
+             
+              <button id="likebtn4">
+                <i class="far fa-thumbs-up fa-xs "></i>
+                  <input type="number" id="input4" value="0" name="">
+                  <br>
+
+                  <input type="text" id="likes4" value="0" name="">
+                  <!-- <span id="likes0"></span> Likes -->
+               </button>   
+             
+             
+             
+             
+             
+             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col-lg-4 col-md-6 col-sm-12 adding_margin_top_columns">
+      
+      <div class="card h-100" >
+        <div class="row no-gutters">
+          <div class="col-4" id="image5">
+            
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+              <h5 class="card-title" id="movieName5"> </h5>
+              <p class="card-tex text_description_size" id="description5"></p>
+              
+              
+              <button id="likebtn5">
+                <i class="far fa-thumbs-up fa-xs "></i>
+                  <input type="number" id="input5" value="0" name="">
+                  <br>
+
+                  <input type="text" id="likes5" value="0" name="">
+                  <!-- <span id="likes0"></span> Likes -->
+               </button>   
+              
+             
+             
+             
+             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+  
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-light bg-dark justify-content-center ">
+  <a class="navbar-brand " href="#"><h4 class="titles_text_white">Movie Factory</h4></a>
+</nav>
+  
+<script type="text/javascript" src="json/abc.json"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+<script src="js/script2.js"></script>
+</body>
+</html>
